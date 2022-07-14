@@ -8,17 +8,9 @@ const App = () => {
   return (
     <>
       <Nav />
-{/*       
-        <Graph /> */}
-      
+      <Info />
+      <Chart />
 
-      
-        <Info />
-      
-
-      
-        <Chart />
-      
     </>
   )
 }
