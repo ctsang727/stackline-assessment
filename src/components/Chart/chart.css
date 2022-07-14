@@ -1,13 +1,61 @@
-#chart{
+#chart {
+    width: 70%;
+    padding: 2rem;
+    background-color: white;
+    margin:1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #052849;
+    border-radius: 5px;
+}
+
+#inner-chart {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 60%;
-    padding:2rem;
+    width: 100%;
     background-color: white;
+    z-index: 0;
 }
 
 #chart li {
     list-style: none;
     padding: 1rem;
+    color: #7393B3;
 }
+
+#showButton {
+    text-align: center;
+    width: 95%;
+    position: relative;
+    margin-right:auto;
+    margin-left:auto;
+    z-index: 1;
+    top: -2rem;
+    background-color: #ffffffd6;
+    padding: 1rem;
+    border-radius: 5px;
+
+}
+
+#showButton:hover {
+    background-color: rgba(238, 238, 238, 0.884);
+    cursor: pointer;
+}
+
+#showLessButton{
+    text-align: center;
+    width: 95%;
+    position: relative;
+    margin-right:auto;
+    margin-left:auto;
+    z-index: 1;
+    
+    background-color: #ffffffd6;
+    padding: 1rem;
+    border-radius: 5px;
+}
+#showLessButton:hover {
+    background-color: rgba(238, 238, 238, 0.884);
+    cursor: pointer;
+}
+

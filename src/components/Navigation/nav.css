@@ -1,13 +1,14 @@
 #nav{
     background-color: #052849;
-    position: fixed;
+    position:fixed;
     top:0;
     left:0;
     width: 100%;
-    height: auto;
+    
 }
 
 #nav img{
-    width: 25%;
-    height: 25%;
+    width: 10%;
+    height: 10%;
+    
 }
