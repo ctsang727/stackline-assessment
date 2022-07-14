@@ -1,0 +1,13 @@
+#chart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    padding:2rem;
+    background-color: white;
+}
+
+#chart li {
+    list-style: none;
+    padding: 1rem;
+}
