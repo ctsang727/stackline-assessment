@@ -24,7 +24,7 @@ const dataReducer = (state = {}, action) => {
     
     switch(action.type){
         case GET_DATA:
-            console.log('test')
+            
             newState = {...state}
             
             action.payload.forEach(e => {
