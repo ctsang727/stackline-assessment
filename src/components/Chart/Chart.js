@@ -29,31 +29,31 @@ function Chart() {
                         <div id='week-ending'>
                             <h3>WEEK ENDING</h3>
                             {preview?.map(sale => {
-                                return <li>{sale.weekEnding}</li>
+                                return <li key={preview.indexOf(sale)}>{sale.weekEnding}</li>
                             })}
                         </div>
                         <div id='retail-sales'>
                             <h3>Retail Sales</h3>
                             {preview?.map(sale => {
-                                return <li>${sale.retailSales}</li>
+                                return <li key={preview.indexOf(sale)}>${sale.retailSales}</li>
                             })}
                         </div>
                         <div id='wholesale-sales'>
                             <h3>Wholesale Sales</h3>
                             {preview?.map(sale => {
-                                return <li>${sale.wholesaleSales}</li>
+                                return <li key={preview.indexOf(sale)}>${sale.wholesaleSales}</li>
                             })}
                         </div>
                         <div id='units-sold'>
                             <h3>Units Sold</h3>
                             {preview?.map(sale => {
-                                return <li>{sale.unitsSold}</li>
+                                return <li key={preview.indexOf(sale)}>{sale.unitsSold}</li>
                             })}
                         </div>
                         <div id='retailer-margin'>
                             <h3>Retailer Margin</h3>
                             {preview?.map(sale => {
-                                return <li>${sale.retailerMargin}</li>
+                                return <li key={preview.indexOf(sale)}>${sale.retailerMargin}</li>
                             })}
 
                         </div>
